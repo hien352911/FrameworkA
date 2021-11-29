@@ -13,7 +13,7 @@ public struct Constants {
     
     init() {}
     
-    func foo() {
+    public func foo() {
         print("Foo")
     }
 }
