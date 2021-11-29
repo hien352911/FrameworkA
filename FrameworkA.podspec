@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FrameworkA"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A tutorial about framework by cocoapods"
 
   # This description is used to generate tags and improve search results.
