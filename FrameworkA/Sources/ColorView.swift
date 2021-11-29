@@ -21,9 +21,16 @@ class ColorView: UIView {
     }
     
     private func commonInit() {
-        Bundle.main.loadNibNamed("ColorView", owner: self)
+        BundleClass().bundle.loadNibNamed("ColorView", owner: self)
         addSubview(contentView)
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+    }
+}
+
+
+class BundleClass {
+    var bundle: Bundle {
+        Bundle(for: type(of: self))
     }
 }
