@@ -9,7 +9,7 @@ import Foundation
 
 /// Notice that the struct is public, and the members are implicitly public too.
 public struct Constants {
-    static let shared = Constants()
+    public static let shared = Constants()
     
     init() {}
     
