@@ -5,7 +5,7 @@
 //  Created by Hien IT. Bui Duy on 29/11/2021.
 //
 
-import Foundation
+import UIKit
 
 class ColorView: UIView {
     @IBOutlet private weak var contentView: UIView!
