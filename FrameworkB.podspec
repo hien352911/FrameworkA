@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "FrameworkA"
+  spec.name         = "FrameworkB"
   spec.version      = "0.0.3"
   spec.summary      = "A tutorial about framework by cocoapods"
 
