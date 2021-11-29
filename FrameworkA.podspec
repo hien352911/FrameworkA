@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "FrameworkA"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of FrameworkA."
+  spec.summary      = "A tutorial about framework by cocoapods"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,11 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  Today almost all apps have async processes, as API requests, long runing processes, etc. And while the processes are working, usually developers place a loading view to show users that something is going on.
+  SkeletonView has been conceived to address this need, an elegant way to show users that something is happening and also prepare them to which contents he is waiting.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/FrameworkA"
+  spec.homepage     = "https://github.com/hien352911/FrameworkA"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/FrameworkA.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/hien352911/FrameworkA.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
