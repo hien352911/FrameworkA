@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86CDECDE2754B89E00097815 /* FrameworkA.docc in Sources */ = {isa = PBXBuildFile; fileRef = 86CDECDD2754B89E00097815 /* FrameworkA.docc */; };
+		86B43FC32754E3FF005262CD /* ColorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B43FC22754E3FF005262CD /* ColorView.xib */; };
+		86B43FC52754E412005262CD /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B43FC42754E412005262CD /* ColorView.swift */; };
 		86CDECE42754B89E00097815 /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CDECD92754B89E00097815 /* FrameworkA.framework */; };
 		86CDECE92754B89E00097815 /* FrameworkATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDECE82754B89E00097815 /* FrameworkATests.swift */; };
 		86CDECF42754B93500097815 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDECF32754B93500097815 /* Constants.swift */; };
@@ -24,8 +25,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86B43FC22754E3FF005262CD /* ColorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorView.xib; sourceTree = "<group>"; };
+		86B43FC42754E412005262CD /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		86CDECD92754B89E00097815 /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86CDECDD2754B89E00097815 /* FrameworkA.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FrameworkA.docc; sourceTree = "<group>"; };
 		86CDECE32754B89E00097815 /* FrameworkATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CDECE82754B89E00097815 /* FrameworkATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkATests.swift; sourceTree = "<group>"; };
 		86CDECF32754B93500097815 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86B43FC12754E3EA005262CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86B43FC22754E3FF005262CD /* ColorView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		86CDECCF2754B89E00097815 = {
 			isa = PBXGroup;
 			children = (
@@ -71,8 +81,8 @@
 		86CDECDB2754B89E00097815 /* FrameworkA */ = {
 			isa = PBXGroup;
 			children = (
+				86B43FC12754E3EA005262CD /* Resources */,
 				86CDECF62754CBBB00097815 /* Sources */,
-				86CDECDD2754B89E00097815 /* FrameworkA.docc */,
 			);
 			path = FrameworkA;
 			sourceTree = "<group>";
@@ -89,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				86CDECF32754B93500097815 /* Constants.swift */,
+				86B43FC42754E412005262CD /* ColorView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -184,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B43FC32754E3FF005262CD /* ColorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86CDECDE2754B89E00097815 /* FrameworkA.docc in Sources */,
+				86B43FC52754E412005262CD /* ColorView.swift in Sources */,
 				86CDECF42754B93500097815 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
