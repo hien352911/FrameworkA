@@ -10,7 +10,6 @@
 		86CDECDE2754B89E00097815 /* FrameworkA.docc in Sources */ = {isa = PBXBuildFile; fileRef = 86CDECDD2754B89E00097815 /* FrameworkA.docc */; };
 		86CDECE42754B89E00097815 /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CDECD92754B89E00097815 /* FrameworkA.framework */; };
 		86CDECE92754B89E00097815 /* FrameworkATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDECE82754B89E00097815 /* FrameworkATests.swift */; };
-		86CDECEA2754B89E00097815 /* FrameworkA.h in Headers */ = {isa = PBXBuildFile; fileRef = 86CDECDC2754B89E00097815 /* FrameworkA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86CDECF42754B93500097815 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDECF32754B93500097815 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 
 /* Begin PBXFileReference section */
 		86CDECD92754B89E00097815 /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86CDECDC2754B89E00097815 /* FrameworkA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkA.h; sourceTree = "<group>"; };
 		86CDECDD2754B89E00097815 /* FrameworkA.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FrameworkA.docc; sourceTree = "<group>"; };
 		86CDECE32754B89E00097815 /* FrameworkATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CDECE82754B89E00097815 /* FrameworkATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkATests.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				86CDECF62754CBBB00097815 /* Sources */,
-				86CDECDC2754B89E00097815 /* FrameworkA.h */,
 				86CDECDD2754B89E00097815 /* FrameworkA.docc */,
 			);
 			path = FrameworkA;
@@ -103,7 +100,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86CDECEA2754B89E00097815 /* FrameworkA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
