@@ -73,9 +73,9 @@
 		86CDECDB2754B89E00097815 /* FrameworkA */ = {
 			isa = PBXGroup;
 			children = (
+				86CDECF62754CBBB00097815 /* Sources */,
 				86CDECDC2754B89E00097815 /* FrameworkA.h */,
 				86CDECDD2754B89E00097815 /* FrameworkA.docc */,
-				86CDECF32754B93500097815 /* Constants.swift */,
 			);
 			path = FrameworkA;
 			sourceTree = "<group>";
@@ -86,6 +86,14 @@
 				86CDECE82754B89E00097815 /* FrameworkATests.swift */,
 			);
 			path = FrameworkATests;
+			sourceTree = "<group>";
+		};
+		86CDECF62754CBBB00097815 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				86CDECF32754B93500097815 /* Constants.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
