@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		86B43FC32754E3FF005262CD /* ColorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B43FC22754E3FF005262CD /* ColorView.xib */; };
 		86B43FC52754E412005262CD /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B43FC42754E412005262CD /* ColorView.swift */; };
-		86B43FF227560D68005262CD /* FrameworkB.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 86B43FF127560D68005262CD /* FrameworkB.podspec */; };
 		86CDECE42754B89E00097815 /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CDECD92754B89E00097815 /* FrameworkA.framework */; };
 		86CDECE92754B89E00097815 /* FrameworkATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDECE82754B89E00097815 /* FrameworkATests.swift */; };
 		86CDECF42754B93500097815 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDECF32754B93500097815 /* Constants.swift */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		86B43FC22754E3FF005262CD /* ColorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorView.xib; sourceTree = "<group>"; };
 		86B43FC42754E412005262CD /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
-		86B43FF127560D68005262CD /* FrameworkB.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FrameworkB.podspec; sourceTree = "<group>"; };
 		86CDECD92754B89E00097815 /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CDECE32754B89E00097815 /* FrameworkATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CDECE82754B89E00097815 /* FrameworkATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkATests.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 		86CDECDB2754B89E00097815 /* FrameworkA */ = {
 			isa = PBXGroup;
 			children = (
-				86B43FF127560D68005262CD /* FrameworkB.podspec */,
 				86B43FC12754E3EA005262CD /* Resources */,
 				86CDECF62754CBBB00097815 /* Sources */,
 			);
@@ -198,7 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86B43FF227560D68005262CD /* FrameworkB.podspec in Resources */,
 				86B43FC32754E3FF005262CD /* ColorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
