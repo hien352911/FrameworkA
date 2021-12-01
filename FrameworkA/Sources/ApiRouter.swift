@@ -12,5 +12,7 @@ import SystemConfiguration
 enum ApiRouter {
     func request() {
         _ = AF.request("")
+        
+        _ = SCDynamicStoreContext.init().info
     }
 }
