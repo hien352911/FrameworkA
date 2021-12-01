@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		867FD7F22757260B0020561C /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867FD7F12757260B0020561C /* ApiRouter.swift */; };
-		867FD7F6275746180020561C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867FD7F5275746180020561C /* Constants.swift */; };
+		867FD7F6275746180020561C /* Constants2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867FD7F5275746180020561C /* Constants2.swift */; };
 		86B43FC32754E3FF005262CD /* ColorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B43FC22754E3FF005262CD /* ColorView.xib */; };
 		86B43FC52754E412005262CD /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B43FC42754E412005262CD /* ColorView.swift */; };
 		86B43FF427560EE6005262CD /* FrameworkB.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 86B43FF327560EE6005262CD /* FrameworkB.podspec */; };
@@ -36,7 +36,7 @@
 		68105CE06856DA590B82B673 /* Pods-FrameworkA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkA.debug.xcconfig"; path = "Target Support Files/Pods-FrameworkA/Pods-FrameworkA.debug.xcconfig"; sourceTree = "<group>"; };
 		7829764D8A2BECBD564F3C57 /* Pods-FrameworkA-FrameworkATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkA-FrameworkATests.debug.xcconfig"; path = "Target Support Files/Pods-FrameworkA-FrameworkATests/Pods-FrameworkA-FrameworkATests.debug.xcconfig"; sourceTree = "<group>"; };
 		867FD7F12757260B0020561C /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
-		867FD7F5275746180020561C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		867FD7F5275746180020561C /* Constants2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants2.swift; sourceTree = "<group>"; };
 		86B43FC22754E3FF005262CD /* ColorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorView.xib; sourceTree = "<group>"; };
 		86B43FC42754E412005262CD /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		86B43FF327560EE6005262CD /* FrameworkB.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FrameworkB.podspec; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		867FD7F42757460C0020561C /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				867FD7F5275746180020561C /* Constants.swift */,
+				867FD7F5275746180020561C /* Constants2.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 				86B43FC52754E412005262CD /* ColorView.swift in Sources */,
 				867FD7F22757260B0020561C /* ApiRouter.swift in Sources */,
 				86CDECF42754B93500097815 /* Constants.swift in Sources */,
-				867FD7F6275746180020561C /* Constants.swift in Sources */,
+				867FD7F6275746180020561C /* Constants2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

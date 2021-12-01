@@ -155,5 +155,9 @@ Pod::Spec.new do |spec|
     ss.source_files = '*/Sources/ApiClient/*'
     ss.dependency 'Alamofire'
   end
+  
+  spec.subspec "ApiClient" do |ss|
+    ss.source_files = '*/Sources/Common/*'
+  end
 
 end
