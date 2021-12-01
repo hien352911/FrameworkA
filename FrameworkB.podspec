@@ -149,6 +149,11 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "Alamofire", "~> 5.4.4"
+  #spec.dependency "Alamofire", "~> 5.4.4"
+  
+  spec.subspec "ApiClient" do |ss|
+    ss.source_files = '*/Sources/ApiClient/*'
+    ss.dependency 'Alamofire'
+  end
 
 end
