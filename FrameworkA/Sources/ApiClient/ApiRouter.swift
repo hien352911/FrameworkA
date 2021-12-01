@@ -9,8 +9,8 @@ import Foundation
 import Alamofire
 import SystemConfiguration
 
-enum ApiRouter {
-    func request() {
+public enum ApiRouter {
+    public func request() {
         _ = AF.request("")
         
         _ = SCDynamicStoreContext.init().info
