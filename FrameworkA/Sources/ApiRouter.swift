@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import SystemConfiguration
 
 enum ApiRouter {
     func request() {
